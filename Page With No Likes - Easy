@@ -13,8 +13,8 @@ page_id	  name
 
 page_likes Table:
 Column Name	Type
-user_id	    integer
-page_id	    integer
+user_id	        integer
+page_id	        integer
 liked_date	datetime
 
 page_likes Example Input:
