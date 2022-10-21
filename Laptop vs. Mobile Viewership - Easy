@@ -3,7 +3,7 @@ Output the total viewership for laptop and mobile devices in the format of "lapt
 
 viewership Table:
 Column Name	Type
-user_id	    integer
+user_id	       integer
 device_type	string ('laptop', 'tablet', 'phone')
 view_time 	timestamp
 
