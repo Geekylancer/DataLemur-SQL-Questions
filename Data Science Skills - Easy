@@ -13,7 +13,7 @@ candidates Example Input:
 candidate_id	skill
 123	        Python
 123	        Tableau
-123	PostgreSQL
+123	        PostgreSQL
 234	R
 234	PowerBI
 234	SQL Server
