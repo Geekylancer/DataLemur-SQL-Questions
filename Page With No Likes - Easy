@@ -2,8 +2,8 @@ Assume you are given the tables below about Facebook pages and page likes. Write
 
 pages Table:
 Column Name	Type
-page_id	    integer
-name	      varchar
+page_id	       integer
+name	         varchar
 
 pages Example Input:
 page_id	name
