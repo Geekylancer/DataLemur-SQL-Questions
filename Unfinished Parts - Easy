@@ -5,7 +5,7 @@ Table parts_assembly contains all parts in production.
 
 parts_assembly Table:
 Column Name	Type
-part	string
+part	       string
 finish_date	datetime
 assembly_step	integer
 
