@@ -9,6 +9,11 @@ Column Name	Type
 candidate_id	integer
 skill	     varchar 
 
+candidates Table:
+Column Name	Type
+candidate_id	integer
+skill	varchar
+
 candidates Example Input:
 candidate_id	skill
 123	Python
