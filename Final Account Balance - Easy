@@ -20,8 +20,8 @@ transaction_id	account_id	transaction_type	amount
 
 Example Output:
 account_id	final_balance
-101	25.00
-201	10.00
+101	        25.00
+201	        10.00
 
 Explanation:
 In total, $30.00 were deposited to account 101, and $5.00 were withdrawn. Therefore, the final balance will be $30.00-$5.00 = $25.00
