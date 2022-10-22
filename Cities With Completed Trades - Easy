@@ -3,8 +3,8 @@ Output the city and number of orders.
 
 trades Table:
 Column Name	Type
-order_id	  integer
-user_id	    integer
+order_id	integer
+user_id	        integer
 price	      decimal
 quantity	  integer
 status	    string('Completed' ,'Cancelled')
