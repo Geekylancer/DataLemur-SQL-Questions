@@ -4,10 +4,10 @@ Assumption:
 All the transactions performed for each account are present in the table; no transactions are missing.
 
 Transactions Table:
-Column Name	Type
-transaction_id	integer
-account_id	integer
-transaction_type	varchar
+Column Name	  Type
+transaction_id	  integer
+account_id	  integer
+transaction_typevarchar
 amount	decimal
 
 Transactions Example Input:
