@@ -5,8 +5,8 @@ trades Table:
 Column Name	Type
 order_id	integer
 user_id	        integer
-price	      decimal
-quantity	  integer
+price	        decimal
+quantity	integer
 status	    string('Completed' ,'Cancelled')
 timestamp	  datetime
 
