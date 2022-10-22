@@ -8,7 +8,7 @@ user_id	        integer
 price	        decimal
 quantity	integer
 status	        string('Completed' ,'Cancelled')
-timestamp	  datetime
+timestamp	datetime
 
 trades Example Input:
 order_id	user_id	  price	 quantity	 status	    timestamp
