@@ -14,9 +14,9 @@ Transactions Example Input:
 transaction_id	account_id	transaction_type	amount
 123	        101	         Deposit	        10.00
 124	        101	         Deposit	        20.00
-125	        101	         Withdrawal	      5.00
+125	        101	         Withdrawal	        5.00
 126	        201	         Deposit	        20.00
-128	        201	         Withdrawal	      10.00
+128	        201	         Withdrawal	        10.00
 
 Example Output:
 account_id	final_balance
