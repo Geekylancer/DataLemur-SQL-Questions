@@ -8,7 +8,7 @@ Column Name	  Type
 transaction_id	  integer
 account_id	  integer
 transaction_type  varchar
-amount	decimal
+amount	          decimal
 
 Transactions Example Input:
 transaction_id	account_id	transaction_type	amount
