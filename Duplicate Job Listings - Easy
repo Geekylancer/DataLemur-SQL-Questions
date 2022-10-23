@@ -35,4 +35,4 @@ group by company_id
 having count(job_id) > 1
 order by company_id)
 select count(company_id) as co_w_duplicate_jobs
-from cte;
+from cte; 
