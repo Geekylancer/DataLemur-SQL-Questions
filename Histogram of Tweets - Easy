@@ -32,4 +32,4 @@ where tweet_date between '01/01/2022' and '12/31/2022'
 group by user_id)
 select tweet_bucket,count(user_id) users_num
 from cte
-group by tweet_bucket;
+group by tweet_bucket; 
