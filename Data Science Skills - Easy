@@ -35,11 +35,11 @@ with cte as (select candidate_id,
 case when skill = 'Python' then candidate_id
      when skill = 'Tableau' then candidate_id
      when skill = 'PostgreSQL' then candidate_id
-end as p
+end as skills
 from candidates
 group by candidate_id,skill
 order by candidate_id)
 select candidate_id
 from cte 
 group by candidate_id
-having count(p) = 3;
+having count(skills) = 3;
