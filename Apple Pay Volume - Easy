@@ -1,0 +1,37 @@
+Visa is trying to analyze its Apply Pay partnership. Calculate the total transaction volume for each merchant where the transaction was performed via Apple Pay.
+Output the merchant ID and the total transactions by merchant. For merchants with no Apple Pay transactions, output their total transaction volume as 0.
+Display the result in descending order of transaction volume.
+
+transactions Table:
+Column Name	Type
+merchant_id	integer
+transaction_amount	integer
+payment_method	varchar
+
+transactions Example Input:
+merchant_id	transaction_amount	payment_method
+1	600	Contactless Chip
+1	850	Apple Pay
+1	500	Apple Pay
+2	560	Magstripe
+2	400	Samsung Pay
+4	1200	apple pay
+
+Example Output:
+merchant_id	volume
+1	1350
+4	1200
+2	0
+
+Explanation:
+Merchant 1 has made two Apple Pay purchases totalling $1,350, Merchant 4 has completed one Apple Pay transaction costing $1,200, and Merchant 2 has not completed any Apple Pay transactions.
+
+The dataset you are querying against may have different input & output - this is just an example!
+
+
+Solution:
+select merchant_id,
+sum(case when payment_method = 'Apple Pay' then transaction_amount else 0 end)+sum(case when payment_method = 'Apple pay' then transaction_amount else 0 end)+sum(case when payment_method = 'apple pay' then transaction_amount else 0 end) as volume
+from transactions
+group by merchant_id
+order by volume desc;
