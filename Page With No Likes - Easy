@@ -36,4 +36,4 @@ Solution:
 select page_id 
 from pages 
 where page_id not in (select distinct page_id from page_likes)
-order by page_id;
+order by page_id; 
