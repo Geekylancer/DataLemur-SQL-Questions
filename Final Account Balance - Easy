@@ -34,4 +34,4 @@ select account_id,
 sum(case when transaction_type = 'Deposit' then amount end) -
 sum(case when transaction_type = 'Withdrawal' then amount end)
 from transactions
-group by account_id;
+group by account_id; 
