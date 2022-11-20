@@ -48,5 +48,5 @@ on s.user_id = u.user_id
 where date(purchase_date)-date(signup_date) < 8
 group by s.user_id, s.signup_date
 )
-select round(100.0*count(user_id)/(select count(distinct user_id) from signups),2) from cte
+select round(100.0*count(user_id)/(select count(distinct user_id) from signups),2) from cte;
 
