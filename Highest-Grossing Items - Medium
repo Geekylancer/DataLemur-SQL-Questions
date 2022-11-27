@@ -35,4 +35,4 @@ group by category,product)
 
 select category,product,total_spend
 from cte 
-where rk <= 2;
+where rk <= 2;  
